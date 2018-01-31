@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.input-field label {
+    color: black;
+}
+
+footer {
+    flex: 1 0 auto;
+
+}
+
+nav {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+body>.container {
+    padding-top: 50px;
+    bacground-color: rgba(0, 0, 0, 0.3);
+}
+.bold {
+    font-weight: bold;
+}
+
+html {
+    background: #dedede;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #000000;
+}
+
+.my-collapsible {
+    border-style: none;
+}
+
+.panels {
+    background-color: rgb(35, 42, 88) !important;
+}
+
+.divider {
+    background-color: rgba(204, 0, 0, 0.3) !important;
+}
+
+.btn {
+    background-color: rgb(35, 42, 88);
+}
+
+.btn-large {
+    background-color: rgb(35, 42, 88);
+}
+
+.card-panel {
+    background-color: white;
+}

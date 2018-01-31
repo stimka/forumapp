@@ -1,0 +1,25 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+
+
+<head>
+</head>
+
+
+<body>
+    <nav th:fragment="navbar" class="nav-wrapper amber panels">
+        <a th:href=" @{~/}" class="brand-logo" style="margin-left: 10px;"> Monitoring</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+            <li sec:authorize="!isAuthenticated()"><a th:href="@{/registration}">Регистрация</a></li>
+            <li sec:authorize="!isAuthenticated()"><a th:href="@{/login}">Вход</a></li>
+
+            <li sec:authorize="isAuthenticated()"><a th:href="@{/archive}">Архив</a></li>
+            <li sec:authorize="hasRole('ADMIN')"><a th:href="@{/users}">Сотрудники</a></li>
+            <li sec:authorize="isAuthenticated()"><a th:href="@{/topic/new}">Добавить устройство</a></li>
+            <li sec:authorize="isAuthenticated()"><a th:href="@{/myprofile}">Профиль</a></li>
+            <li sec:authorize="isAuthenticated()"><a th:href="@{/logout}">Выход</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

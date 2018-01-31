@@ -1,0 +1,173 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/head :: head">
+</head>
+<body>
+    <nav th:replace="fragments/navbar :: navbar"></nav>
+    <div class="container">
+        <div th:replace="fragments/messages :: messages"></div>
+
+        <div class="row">
+            <div class="row">
+
+                <!-- LEFT -->
+
+                <div class="col s2">
+                    <div class="row">
+                        <div class="col s12 right-align">
+                            <h6 th:text="'@' + ${userProfile.user.username}"></h6>
+                            <h6 th:text="${userProfile.user.name}" class="bold"></h6>
+                            <h6 th:text="${userProfile.user.lastName}" class="bold"></h6>
+                            <a th:if="${#authentication.name} eq ${userProfile.user.username}" th:href="@{/myprofile/edit}">
+                                <i class="material-icons medium black-text">mode_edit</i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- MID -->
+
+                <div class="col s8 ">
+
+                    <!-- INFROMATION -->
+
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="row z-depth-2">
+                                <div class="row">
+                                    <div class="col s12">
+                                        <h5 class="center bold">Информация</h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s6 right-align">
+                                        <p th:if="${userProfile.user.name != null}">Имя</p>
+                                        <p th:if="${userProfile.user.lastName != null}">Фамилия</p>
+                                        <p th:if="${userProfile.user.sex != null }">Пол</p>
+                                        <p th:if="${userProfile.user.city != null}">Город</p>
+                                        <p th:if="${userProfile.user.birthday != null}">День рождения</p>
+                                        <p th:if="${userProfile.user.registerDate != null}">Дата регистрации</p>
+                                        <p th:if="${userProfile.user.lastLoginDate != null}">Последний вход</p>
+                                    </div>
+                                    <div class="col s6">
+                                        <p th:if="${userProfile.user.name != null}" th:text="${userProfile.user.name}"></p>
+                                        <p th:if="${userProfile.user.lastName != null}"th:text="${userProfile.user.lastName}"></p>
+                                        <p th:if="${userProfile.user.sex != null }" th:text="${userProfile.user.sex.name()}"></p>
+                                        <p th:if="${userProfile.user.city != null}" th:text="${userProfile.user.city}"></p>
+                                        <p th:if="${userProfile.user.birthday != null}" th:text="${#calendars.format(userProfile.user.birthday, 'dd MMMM yyyy')}"></p>
+                                        <p th:if="${userProfile.user.registerDate != null}" th:text="${#calendars.format(userProfile.user.registerDate, 'dd MMMM yyyy HH:mm')}"></p>
+                                        <p th:if="${userProfile.user.lastLoginDate != null}" th:text="${#calendars.format(userProfile.user.lastLoginDate, 'dd MMMM yyyy HH:mm')}"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <!-- TOPICS -->
+
+                    <div class="row" th:if="${userProfile.topics.size() > 0}">
+                        <div class="col s12">
+                            <div class="row z-depth-2">
+                                <div class="col s12">
+                                    <div class="row">
+                                        <h5 class="center bold">Устройства</h5>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col s6">
+                                            <span>Дата</span> <span class="right">Отдел</span>
+                                            <div class="divider"></div>
+                                        </div>
+                                        <div class="col s6">
+                                            <span>Название</span> <span class="right">Наблюдения</span>
+                                            <div class="divider"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row" th:each="topic : ${userProfile.topics}">
+                                        <div class="col s6">
+                                            <span th:text="${#calendars.format(topic.creationDate, ' d MMM yy HH:mm')}"></span>
+                                            <a th:href="@{/section/} + ${topic.section.id}" th:text="${topic.section.name}" class="right"></a>
+                                        </div>
+                                        <div class="col s6">
+                                            <a th:href="@{/topic/} + ${topic.id}" th:text="${topic.title}"></a>
+                                            <span th:text="${topic.views}" class="right"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- POSTS -->
+
+                    <div class="row" th:if="${userProfile.posts.size() > 0}">
+                        <div class="col s12">
+                            <div class="row">
+                                <div class="col s12 z-depth-2">
+
+                                    <div class="row">
+                                        <h5 class="center bold">Изменения</h5>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col s6">
+                                            <span>Дата</span> <span class="right">Устройство</span>
+                                            <div class="divider"></div>
+                                        </div>
+                                        <div class="col s6">
+                                            <span>Содержание</span>
+                                            <div class="divider"></div>
+                                        </div>
+                                    </div>
+                                    <div class="row" th:each="post : ${userProfile.posts}">
+                                        <div class="col s6 right-align">
+                                            <span th:text="${#calendars.format(post.creationDate, 'd MMM yy HH:mm')} + '&nbsp; &nbsp;'" class="left"></span>
+                                            <a th:href="@{/topic/} + ${post.topic.id}" th:text="${post.topic.title}" class="truncate"></a>
+                                        </div>
+                                        <div class="col s6">
+                                            <a th:href="@{/topic/} + ${post.topic.id} + '#' + ${post.id}" th:text="${post.content}" class="truncate"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- RIGHT -->
+
+                <div class="col s2">
+                    <div class="row">
+                        <div class="col s12">
+
+                            <!-- STATISTICS -->
+
+                            <div class="row">
+                                <div class="col s11 z-depth-2 right">
+                                    <h6 class="center bold">Статистика</h6>
+                                    <div class="divider"></div>
+                                    <div class="row">
+                                        <div class="col s6 center">
+                                            <p>Устройства</p>
+                                            <p>Изменения</p>
+                                        </div>
+                                        <div class="col s6 center">
+                                            <p th:text="${userProfile.topics.size()}"></p>
+                                            <p th:text="${userProfile.posts.size()}"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer th:replace="fragments/footer :: footer"></footer>
+</body>
+</html>
