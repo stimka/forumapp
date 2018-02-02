@@ -6,9 +6,6 @@ import org.hibernate.validator.constraints.NotEmpty;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
-/**
- * Created by Evgeny Yushkevich on 09.05.2017.
- */
 public class NewUserForm {
 
     @Email(message = "{Email.User.email.validation}")

@@ -14,8 +14,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 
 import java.io.IOException;
 
-
-
 @EnableWebMvc
 @Configuration
 @ComponentScan("by.zagursky.gameforum")

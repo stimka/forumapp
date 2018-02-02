@@ -1,13 +1,13 @@
 package by.zagursky.gameforum.controller;
 
 import by.zagursky.gameforum.controller.form.NewSectionForm;
-import by.zagursky.gameforum.model.Role;
 import by.zagursky.gameforum.model.Section;
 import by.zagursky.gameforum.model.User;
 import by.zagursky.gameforum.service.RoleService;
 import by.zagursky.gameforum.service.SectionService;
-import by.zagursky.gameforum.service.TopicService;
 import by.zagursky.gameforum.service.UserService;
+import by.zagursky.gameforum.model.Role;
+import by.zagursky.gameforum.service.TopicService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;
@@ -21,9 +21,6 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.validation.Valid;
 
-/**
- * Created by Evgeny Yushkevich on 09.05.2017.
- */
 @Controller
 @RequestMapping("/section/")
 public class SectionController {

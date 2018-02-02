@@ -1,11 +1,9 @@
-/**
- * Created by Dawid Stankiewicz on 17.07.2016
- */
+
 package by.zagursky.gameforum.service;
 
-import by.zagursky.gameforum.model.Post;
 import by.zagursky.gameforum.model.Topic;
 import by.zagursky.gameforum.model.User;
+import by.zagursky.gameforum.model.Post;
 
 import java.util.List;
 import java.util.Set;

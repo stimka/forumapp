@@ -1,13 +1,13 @@
 package by.zagursky.gameforum.controller;
 
 import by.zagursky.gameforum.controller.form.NewUserForm;
-import by.zagursky.gameforum.controller.form.UserEditForm;
 import by.zagursky.gameforum.exception.UserNotFoundException;
+import by.zagursky.gameforum.service.UserService;
+import by.zagursky.gameforum.controller.form.UserEditForm;
 import by.zagursky.gameforum.model.User;
 import by.zagursky.gameforum.model.UserProfile;
 import by.zagursky.gameforum.service.TopicService;
 import by.zagursky.gameforum.service.UserProfileService;
-import by.zagursky.gameforum.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler;
@@ -23,10 +23,6 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
-
-/**
- * Created by Evgeny Yushkevich on 09.05.2017.
- */
 
 @Controller
 public class UserController {

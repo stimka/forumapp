@@ -13,10 +13,6 @@ import org.thymeleaf.templateresolver.ServletContextTemplateResolver;
 
 import javax.servlet.ServletContext;
 
-/**
- * Created by Evgeny Yushkevich on 08.05.2017.
- */
-
 @Configuration
 public class ThymeleafConfig {
 

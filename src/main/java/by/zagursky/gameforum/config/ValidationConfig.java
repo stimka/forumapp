@@ -5,9 +5,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.validation.beanvalidation.LocalValidatorFactoryBean;
 
-/**
- * Created by Evgeny Yushkevich on 08.05.2017.
- */
 
 @Configuration
 public class ValidationConfig {

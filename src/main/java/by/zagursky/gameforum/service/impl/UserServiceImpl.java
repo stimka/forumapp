@@ -18,9 +18,6 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-/**
- * Created by Evgeny Yushkevich on 08.05.2017.
- */
 @Service
 public class UserServiceImpl implements UserService {
 

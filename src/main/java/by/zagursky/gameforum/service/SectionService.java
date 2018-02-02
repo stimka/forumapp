@@ -1,6 +1,3 @@
-/**
- * Created by Dawid Stankiewicz on 17.07.2016
- */
 package by.zagursky.gameforum.service;
 
 import by.zagursky.gameforum.model.Section;

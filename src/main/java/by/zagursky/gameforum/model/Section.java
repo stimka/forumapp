@@ -4,10 +4,6 @@ import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Objects;
 
-/**
- * Created by Evgeny Yushkevich on 08.05.2017.
- */
-
 @Entity
 @Table(name = "section")
 public class Section implements Serializable {

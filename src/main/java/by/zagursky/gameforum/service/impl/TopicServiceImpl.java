@@ -1,7 +1,7 @@
 package by.zagursky.gameforum.service.impl;
 
-import by.zagursky.gameforum.model.Section;
 import by.zagursky.gameforum.model.Topic;
+import by.zagursky.gameforum.model.Section;
 import by.zagursky.gameforum.model.User;
 import by.zagursky.gameforum.model.repository.TopicRepository;
 import by.zagursky.gameforum.service.SectionService;
@@ -12,9 +12,6 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Set;
 
-/**
- * Created by Evgeny Yushkevich on 08.05.2017.
- */
 @Service
 public class TopicServiceImpl implements TopicService {
 

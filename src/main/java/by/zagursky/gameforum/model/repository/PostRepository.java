@@ -3,9 +3,9 @@
  */
 package by.zagursky.gameforum.model.repository;
 
-import by.zagursky.gameforum.model.Post;
 import by.zagursky.gameforum.model.Topic;
 import by.zagursky.gameforum.model.User;
+import by.zagursky.gameforum.model.Post;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Set;

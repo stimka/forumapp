@@ -5,9 +5,6 @@ import by.zagursky.gameforum.model.Sex;
 import javax.validation.constraints.Pattern;
 import java.text.ParseException;
 
-/**
- * Created by Evgeny Yushkevich on 08.05.2017.
- */
 public class UserEditForm {
 
     @Pattern(regexp = "^\\p{IsAlphabetic}*$", message = "{Pattern.User.name.validation}")

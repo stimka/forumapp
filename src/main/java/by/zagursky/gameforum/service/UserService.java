@@ -5,9 +5,6 @@ import by.zagursky.gameforum.model.User;
 
 import java.util.List;
 
-/**
- * Created by Evgeny Yushkevich on 08.05.2017.
- */
 public interface UserService {
 
     List<User> findAll();

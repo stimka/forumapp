@@ -1,13 +1,13 @@
 package by.zagursky.gameforum.controller;
 
-import by.zagursky.gameforum.controller.form.NewPostForm;
 import by.zagursky.gameforum.controller.form.NewTopicForm;
-import by.zagursky.gameforum.model.Post;
 import by.zagursky.gameforum.model.Topic;
+import by.zagursky.gameforum.service.UserService;
+import by.zagursky.gameforum.controller.form.NewPostForm;
+import by.zagursky.gameforum.model.Post;
 import by.zagursky.gameforum.service.PostService;
 import by.zagursky.gameforum.service.SectionService;
 import by.zagursky.gameforum.service.TopicService;
-import by.zagursky.gameforum.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;

@@ -2,9 +2,6 @@ package by.zagursky.gameforum.controller.form;
 
 import javax.validation.constraints.Size;
 
-/**
- * Created by Evgeny Yushkevich on 09.05.2017.
- */
 public class NewSectionForm {
 
     @Size(min = 1, max = 50, message = "{Size.Section.name.validation}")

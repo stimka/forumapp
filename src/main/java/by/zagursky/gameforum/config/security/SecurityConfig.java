@@ -12,10 +12,6 @@ import org.springframework.web.filter.CharacterEncodingFilter;
 
 import javax.sql.DataSource;
 
-/**
- * Created by Evgeny Yushkevich on 08.05.2017.
- */
-
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {

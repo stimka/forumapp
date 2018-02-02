@@ -3,9 +3,6 @@ package by.zagursky.gameforum.model;
 import java.util.Objects;
 import java.util.Set;
 
-/**
- * Created by Evgeny Yushkevich on 08.05.2017.
- */
 public class UserProfile {
 
     private User user;

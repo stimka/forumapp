@@ -20,7 +20,6 @@ import javax.naming.NamingException;
 import javax.persistence.EntityManagerFactory;
 import javax.sql.DataSource;
 
-
 @Configuration
 @EnableTransactionManagement
 @EnableJpaRepositories(basePackages = "by.zagursky.gameforum.model")

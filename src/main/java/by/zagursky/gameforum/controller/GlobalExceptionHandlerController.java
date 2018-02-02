@@ -6,9 +6,6 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.servlet.NoHandlerFoundException;
 
-/**
- * Created by Evgeny Yushkevich on 08.05.2017.
- */
 @ControllerAdvice
 public class GlobalExceptionHandlerController {
 

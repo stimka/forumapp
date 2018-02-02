@@ -1,16 +1,12 @@
 package by.zagursky.gameforum.service.impl;
 
+import by.zagursky.gameforum.service.RoleService;
 import by.zagursky.gameforum.model.Role;
 import by.zagursky.gameforum.model.repository.RoleRepository;
-import by.zagursky.gameforum.service.RoleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-
-/**
- * Created by Evgeny Yushkevich on 08.05.2017.
- */
 
 @Service
 public class RoleServiceImpl implements RoleService {

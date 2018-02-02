@@ -3,9 +3,6 @@ package by.zagursky.gameforum.controller.form;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.Size;
 
-/**
- * Created by Evgeny Yushkevich on 09.05.2017.
- */
 public class NewTopicForm {
 
     @Size(min = 3, max = 50, message = "{Size.Topic.title.validation}")

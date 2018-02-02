@@ -6,10 +6,6 @@ import java.util.Date;
 import java.util.Objects;
 import java.util.Set;
 
-/**
- * Created by Evgeny Yushkevich on 08.05.2017.
- */
-
 @Entity
 @Table(name = "user")
 public class User implements Serializable {

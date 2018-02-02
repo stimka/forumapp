@@ -8,9 +8,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-/**
- * Created by Evgeny Yushkevich on 08.05.2017.
- */
 @Service
 public class SectionServiceImpl implements SectionService {
 
