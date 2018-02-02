@@ -4,55 +4,55 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/new_topic_form.html" line="48" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e7c346c-6ec4-410e-b673-8fd81057056a" name="Default" comment="Delete names">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="7e7c346c-6ec4-410e-b673-8fd81057056a" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/AppConfig.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/config/AppConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/AppInitializer.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/config/AppInitializer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/JPAConfig.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/config/JPAConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/PropertiesConfig.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/config/PropertiesConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/RootConfig.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/config/RootConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/ThymeleafConfig.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/config/ThymeleafConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/ValidationConfig.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/config/ValidationConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/security/PasswordEncoderConfig.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/config/security/PasswordEncoderConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/security/SecurityConfig.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/config/security/SecurityConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/security/SecurityWebInitializer.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/config/security/SecurityWebInitializer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/GlobalExceptionHandlerController.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/controller/GlobalExceptionHandlerController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/HomeController.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/controller/HomeController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/PostController.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/controller/PostController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/SectionController.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/controller/SectionController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/TopicController.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/controller/TopicController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/controller/UserController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/form/NewPostForm.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/controller/form/NewPostForm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/form/NewSectionForm.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/controller/form/NewSectionForm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/form/NewTopicForm.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/controller/form/NewTopicForm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/form/NewUserForm.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/controller/form/NewUserForm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/form/UserEditForm.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/controller/form/UserEditForm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/exception/IncorrectPasswordException.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/exception/IncorrectPasswordException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/exception/UserNotFoundException.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/exception/UserNotFoundException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/Post.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/model/Post.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/Role.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/model/Role.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/Section.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/model/Section.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/Sex.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/model/Sex.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/Topic.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/model/Topic.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/model/User.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/UserProfile.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/model/UserProfile.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/repository/PostRepository.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/model/repository/PostRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/repository/RoleRepository.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/model/repository/RoleRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/repository/SectionRepository.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/model/repository/SectionRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/repository/TopicRepository.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/model/repository/TopicRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/repository/UserRepository.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/model/repository/UserRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/PostService.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/service/PostService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/RoleService.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/service/RoleService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/SectionService.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/service/SectionService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/TopicService.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/service/TopicService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/UserProfileService.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/service/UserProfileService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/service/UserService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/impl/PostServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/service/impl/PostServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/impl/RoleServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/service/impl/RoleServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/impl/SectionServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/service/impl/SectionServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/impl/TopicServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/service/impl/TopicServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/impl/UserProfileServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/service/impl/UserProfileServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/by/gameforum/service/impl/UserServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/AppConfig.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/AppConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/AppInitializer.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/AppInitializer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/JPAConfig.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/JPAConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/PropertiesConfig.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/PropertiesConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/RootConfig.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/RootConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/ThymeleafConfig.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/ThymeleafConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/ValidationConfig.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/ValidationConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/security/PasswordEncoderConfig.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/security/PasswordEncoderConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/security/SecurityConfig.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/security/SecurityConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/security/SecurityWebInitializer.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/security/SecurityWebInitializer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/GlobalExceptionHandlerController.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/GlobalExceptionHandlerController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/HomeController.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/HomeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/PostController.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/PostController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/SectionController.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/SectionController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/TopicController.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/TopicController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/form/NewPostForm.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/form/NewPostForm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/form/NewSectionForm.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/form/NewSectionForm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/form/NewTopicForm.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/form/NewTopicForm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/form/NewUserForm.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/form/NewUserForm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/form/UserEditForm.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/form/UserEditForm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/exception/IncorrectPasswordException.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/exception/IncorrectPasswordException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/exception/UserNotFoundException.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/exception/UserNotFoundException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/Post.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/Post.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/Role.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/Role.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/Section.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/Section.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/Sex.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/Sex.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/Topic.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/Topic.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/UserProfile.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/UserProfile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/repository/PostRepository.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/repository/PostRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/repository/RoleRepository.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/repository/RoleRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/repository/TopicRepository.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/repository/TopicRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/repository/UserRepository.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/repository/UserRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/PostService.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/PostService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/RoleService.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/RoleService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/SectionService.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/SectionService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/TopicService.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/TopicService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/UserProfileService.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/UserProfileService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/impl/PostServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/impl/PostServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/impl/RoleServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/impl/RoleServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/impl/SectionServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/impl/SectionServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/impl/TopicServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/impl/TopicServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/impl/UserProfileServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/impl/UserProfileServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/impl/UserServiceImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,18 +72,7 @@
     <favorites_list name="forumapp" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserEditForm.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/form/UserEditForm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -165,15 +154,15 @@
         <option value="$PROJECT_DIR$/src/main/java/by/gameforum/service/UserProfileService.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/gameforum/service/PostService.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/gameforum/service/TopicService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/gameforum/service/SectionService.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/gameforum/service/RoleService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/gameforum/config/AppConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/gameforum/config/JPAConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/gameforum/config/RootConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/repository/SectionRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/JPAConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/RootConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/gameforum/service/SectionService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/gameforum/config/AppConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/gameforum/config/JPAConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/gameforum/config/RootConfig.java" />
       </list>
     </option>
   </component>
@@ -974,7 +963,7 @@
       <workItem from="1513757478031" duration="3444000" />
       <workItem from="1517418675622" duration="2578000" />
       <workItem from="1517544575382" duration="167000" />
-      <workItem from="1517573336421" duration="3076000" />
+      <workItem from="1517573336421" duration="3245000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1494345543127</created>
@@ -997,11 +986,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494429592515</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Delete names">
+      <created>1517576489544</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1517576489544</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114794000" />
+    <option name="totallyTimeSpent" value="114963000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1014,7 +1010,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26435536" sideWeight="0.5154584" order="7" side_tool="true" content_ui="tabs" />
@@ -1029,7 +1025,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1037,7 +1033,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.4936034" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28731343" sideWeight="0.4902439" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28731343" sideWeight="0.4902439" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5097561" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5097561" order="2" side_tool="true" content_ui="tabs" />
@@ -1104,7 +1100,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/form/NewTopicForm.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/controller/form/NewTopicForm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
@@ -1112,7 +1108,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/form/NewUserForm.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/controller/form/NewUserForm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -1120,7 +1116,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/GlobalExceptionHandlerController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/controller/GlobalExceptionHandlerController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -1128,7 +1124,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/PostController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/controller/PostController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
@@ -1136,7 +1132,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/SectionController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/controller/SectionController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
@@ -1144,7 +1140,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/TopicController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/controller/TopicController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2793">
           <caret line="153" column="43" selection-start-line="153" selection-start-column="43" selection-end-line="153" selection-end-column="43" />
@@ -1152,7 +1148,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
@@ -1160,7 +1156,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/exception/IncorrectPasswordException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/exception/IncorrectPasswordException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
@@ -1168,7 +1164,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/exception/UserNotFoundException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/exception/UserNotFoundException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
@@ -1176,7 +1172,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/repository/UserRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/model/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
@@ -1184,7 +1180,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/repository/TopicRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/model/repository/TopicRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
@@ -1192,7 +1188,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/repository/RoleRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/model/repository/RoleRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
@@ -1200,7 +1196,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/repository/PostRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/model/repository/PostRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
@@ -1208,7 +1204,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/UserProfile.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/model/UserProfile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
@@ -1216,7 +1212,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -1224,7 +1220,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/Topic.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/model/Topic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
@@ -1232,7 +1228,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/Sex.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/model/Sex.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
@@ -1240,7 +1236,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/Section.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/model/Section.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
@@ -1248,7 +1244,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/Role.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/model/Role.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
@@ -1256,7 +1252,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/impl/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
@@ -1264,7 +1260,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/impl/UserProfileServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/service/impl/UserProfileServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
@@ -1272,7 +1268,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/impl/TopicServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/service/impl/TopicServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="55">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
@@ -1280,7 +1276,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/impl/RoleServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/service/impl/RoleServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
@@ -1356,7 +1352,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/TopicService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/service/TopicService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1364,7 +1360,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/UserProfileService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/service/UserProfileService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
@@ -1372,7 +1368,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/RoleService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/service/RoleService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
@@ -1382,15 +1378,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/SectionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
@@ -1400,7 +1388,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/PostService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/service/PostService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
@@ -1418,7 +1406,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/impl/PostServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/service/impl/PostServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-660">
           <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
@@ -1428,15 +1416,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/ValidationConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/security/PasswordEncoderConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/config/security/PasswordEncoderConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
@@ -1446,7 +1426,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/Post.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/model/Post.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1353">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
@@ -1454,7 +1434,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/HomeController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
@@ -1464,7 +1444,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/service/impl/SectionServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/service/impl/SectionServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
@@ -1472,7 +1452,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/model/repository/SectionRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/model/repository/SectionRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
@@ -1480,36 +1460,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/AppConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/controller/form/UserEditForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/config/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="28" />
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/AppInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding>
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/JPAConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/PropertiesConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/config/PropertiesConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
@@ -1517,15 +1486,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/RootConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/config/JPAConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        <state relative-caret-position="126">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/config/ThymeleafConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/config/AppInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/config/RootConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/config/ThymeleafConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
@@ -1533,10 +1521,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/zagursky/gameforum/controller/form/UserEditForm.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/config/ValidationConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/gameforum/service/SectionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding />
         </state>
       </provider>
